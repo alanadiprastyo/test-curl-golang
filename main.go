@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	resp, err := http.Post("http://wso-2-republish-api-git-wso2-helper.apps.paas.maucash.id/republishapi", "", nil)
+	resp, err := http.Post("https://google.com", "", nil)
 	log.Println(resp)
 	if err != nil {
 		log.Fatal(err)
